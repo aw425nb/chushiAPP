@@ -1,11 +1,16 @@
 <template>
-    <div>我是发布</div>
+    <div class="publish">
+        <PublishPopup></PublishPopup>
+    </div>
 </template>
 
-
 <script>
+import PublishPopup from '../../components/PublishPopup'
 export default {
-    
+    name: "publish",
+    components: {
+        PublishPopup
+    }
 }
 </script>
 
