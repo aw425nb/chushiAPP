@@ -7,6 +7,7 @@ import MySupply from "../pages/mySupply"
 import Purchase from "../pages/myPurchase"
 import Offer from "../pages/myOffer"
 import Detail from "../pages/detailPage"
+import Search from "../pages/search/Search.vue"
 
 
 
@@ -50,6 +51,10 @@ const routes = [{
     {//详情页
         path: "/detail",
         component: Detail
+    },
+    {//搜索页
+        path:'/search',
+        component:Search
     },
     {
         path: "*",
