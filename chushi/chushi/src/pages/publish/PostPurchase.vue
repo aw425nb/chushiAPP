@@ -1,21 +1,22 @@
 <template>
- <div>
-<!-- 点击发布采购页面 PostPurchase-->
-发布采购页面
- </div>
+  <div>
+    <!-- 点击发布采购页面 PostPurchase-->
+    发布采购页面
+    <CategoryNav></CategoryNav>
+  </div>
 </template>
 
 <script>
- export default {
-   data () {
-     return {
-
-     }
-   },
- }
+import CategoryNav from "../CategoryNav/index.vue";
+export default {
+  components: {
+    CategoryNav
+  },
+  data() {
+    return {};
+  }
+};
 </script>
 
 <style scoped>
-
-
 </style>
