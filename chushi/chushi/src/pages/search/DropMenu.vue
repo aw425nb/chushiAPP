@@ -1,7 +1,7 @@
 <template>
   <div class="drop-menu">
     <van-dropdown-menu>
-      <van-dropdown-item v-model="value" :options="option1" >
+      <van-dropdown-item v-model="value" :options="option2" >
           <van-tree-select
             :items="items"
             :active-id.sync="activeId"
