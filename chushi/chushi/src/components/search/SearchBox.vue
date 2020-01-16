@@ -1,6 +1,7 @@
 <template>
     <div class="search-box">
         <van-search
+        v-model="value"
         placeholder="请输入搜索关键词"
         show-action
         shape="round"
@@ -13,6 +14,11 @@
 
 <script>
 export default{
+    data() {
+        return {
+        value: ""
+        }
+    },
     methods:{
         onSearch(){
             console.log('search')
