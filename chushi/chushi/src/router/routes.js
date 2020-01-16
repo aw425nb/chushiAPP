@@ -2,7 +2,7 @@ import Index from "../pages/views/index.vue"
 import My from "../pages/views/my.vue"
 import Classify from "../pages/views/classify.vue"
 import Manifest from "../pages/views/manifest.vue"
-import Publish from "../pages/views/publish.vue"
+// import Publish from "../pages/views/publish.vue"
 import MySupply from "../pages/mySupply"
 import Purchase from "../pages/myPurchase"
 import Offer from "../pages/myOffer"
@@ -31,10 +31,10 @@ const routes = [{
         component: Manifest,
         meta: { footerShow:true }
     },
-    {
-        path: "/publish",
-        component: Publish
-    },
+    // {
+    //     path: "/publish",
+    //     component: Publish
+    // },
     {//我的供应
         path: "/mysupply",
         component: MySupply,
