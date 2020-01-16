@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
-    <Footer v-if="isshow"></Footer>
+    <Footer v-if="$route.meta.footerShow"></Footer>
   </div>
 </template>
 <script>
@@ -10,14 +10,6 @@ import Footer from "./pages/footer/footer.vue"
 export default {
   components:{
     Footer
-  },
-  data () {
-    return {
-      isshow:true
-    }
-  },
-  mounted () {
-    this.isshow = this.$route.meta.isshow
   }
   
 }
