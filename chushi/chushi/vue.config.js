@@ -1,7 +1,7 @@
 module.exports = {
     configureWebpack: {
       externals: {
-        'BMap': 'BMap' // 高德地图配置
+        'BMap': 'BMap' // 百度地图配置
       }
     }
   }
