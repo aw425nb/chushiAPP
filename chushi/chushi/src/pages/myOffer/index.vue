@@ -1,5 +1,6 @@
 <template>
   <div id="myoffer">
+    
     <van-nav-bar
       title="我的报价"
       left-text=""
@@ -21,6 +22,7 @@ export default {
       active: 2
     }
   },
+
   methods: {
     onClickLeft() {
       alert(1)
