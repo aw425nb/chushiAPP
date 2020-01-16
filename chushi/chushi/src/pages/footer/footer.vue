@@ -2,9 +2,11 @@
   <footer>
     <router-link to="/index">首页</router-link>
     <router-link to="/classify">分类</router-link>
+    <!-- 发布 -->
     <div class="btn_warp tabbar_list" @click.stop="showPopup" >
       <span class="icon">+</span>
       <span class="des">发布</span>
+      <!-- 发布弹出层 -->
       <van-popup v-model="show" position="bottom" :style="{ height: '40%' }">
         <div class="pop_wrap">
           <a href>
@@ -18,7 +20,9 @@
         </div>
         <van-icon name="cross" @click.stop="closePopup" />
       </van-popup>
+      <!-- 发布弹出层 -->
     </div>
+    <!-- 发布 -->
     <router-link to="/manifest">货单</router-link>
     <router-link to="/my">我的</router-link>
   </footer>
