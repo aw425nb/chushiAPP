@@ -38,7 +38,6 @@ const routes = [{
     {//我的供应
         path: "/mysupply",
         component: MySupply,
-       
     },
     {//我的采购
         path: "/mypurchase",
