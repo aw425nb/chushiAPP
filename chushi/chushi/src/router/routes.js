@@ -65,5 +65,4 @@ const routes = [{
         redirect: "/index"
     }
 ]
-
 export default routes
