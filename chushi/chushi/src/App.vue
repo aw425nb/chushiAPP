@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import Footer from "./pages/footer/footer.vue"
+import Footer from "./components/footer/footer.vue"
 
 export default {
   components:{
