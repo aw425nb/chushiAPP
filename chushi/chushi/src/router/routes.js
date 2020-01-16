@@ -13,20 +13,22 @@ import Detail from "../pages/detailPage"
 const routes = [{
         path: "/index",
         component: Index,
-        meta: { isshow:true }
+        meta: { footerShow:true }
     },
     {
         path: "/my",
-        component: My
+        component: My,
+        meta: { footerShow:true }
     },
     {
         path: "/classify",
-        component: Classify
+        component: Classify,
+        meta: { footerShow:true }
     },
     {
         path: "/manifest",
         component: Manifest,
-        meta: { isshow:true }
+        meta: { footerShow:true }
     },
     {
         path: "/publish",
@@ -35,7 +37,7 @@ const routes = [{
     {//我的供应
         path: "/mysupply",
         component: MySupply,
-        meta: { isshow:false }
+       
     },
     {//我的采购
         path: "/mypurchase",
