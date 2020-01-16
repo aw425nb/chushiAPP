@@ -12,7 +12,8 @@ import Detail from "../pages/detailPage"
 
 const routes = [{
         path: "/index",
-        component: Index
+        component: Index,
+        meta: { isshow:true }
     },
     {
         path: "/my",
@@ -24,7 +25,8 @@ const routes = [{
     },
     {
         path: "/manifest",
-        component: Manifest
+        component: Manifest,
+        meta: { isshow:true }
     },
     {
         path: "/publish",
@@ -32,7 +34,8 @@ const routes = [{
     },
     {//我的供应
         path: "/mysupply",
-        component: MySupply
+        component: MySupply,
+        meta: { isshow:false }
     },
     {//我的采购
         path: "/mypurchase",

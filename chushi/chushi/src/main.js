@@ -7,7 +7,7 @@ import createRouter from "./router"
 //引入vant
 import Vant from 'vant';
 import 'vant/lib/index.css';
-Vue.use(Vant);
+Vue.use(Vant)
 
 
 
