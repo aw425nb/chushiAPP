@@ -6,7 +6,7 @@ import MySupply from "../pages/mySupply"
 import Purchase from "../pages/myPurchase"
 import Offer from "../pages/myOffer"
 import Detail from "../pages/detailPage"
-import Search from "../pages/search/Search.vue"
+import Search from "../components/search/Search.vue"
 
 // 引入发布供应和发布采购组件
 import PostPurchase from "../pages/publish/PostPurchase.vue"
