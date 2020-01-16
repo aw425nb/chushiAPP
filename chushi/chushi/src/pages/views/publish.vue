@@ -1,14 +1,19 @@
-<template>
-    <div>我是发布</div>
-</template>
+// <template>
+//     <div class="publish">
+//         <PublishPopup></PublishPopup>
+//     </div>
+// </template>
 
+// <script>
+// import PublishPopup from '../../components/PublishPopup'
+// export default {
+//     name: "publish",
+//     components: {
+//         PublishPopup
+//     }
+// }
+// </script>
 
-<script>
-export default {
-    
-}
-</script>
+// <style lang="stylus" scoped>
 
-<style lang="stylus" scoped>
-
-</style>
+// </style>

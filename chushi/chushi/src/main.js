@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from "vue-router"
 import App from './App.vue'
 import "./assets/rem"
-import "./assets/css/main.styl"
+import "./assets/css/main.css"
 import createRouter from "./router"
 //引入vant
 import Vant from 'vant'
