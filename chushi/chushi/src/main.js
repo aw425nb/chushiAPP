@@ -6,6 +6,9 @@ import "./assets/css/main.styl"
 import createRouter from "./router"
 
 
+
+
+
 Vue.use(Router)
 
 const router =createRouter(Router)
