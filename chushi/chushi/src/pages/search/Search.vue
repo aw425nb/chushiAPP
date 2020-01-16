@@ -1,15 +1,18 @@
 <template>
     <div class="search">
         <div class="search-top">
+            <!-- 后退箭头 -->
             <van-icon name="arrow-left" />
             <SearchBox/>
         </div>
+        <div class="menu"><DropMenu/></div>
     </div>
 </template>
 
 <script>
 //引入搜索框
 import SearchBox from "./SearchBox.vue"
+import DropMenu from "./DropMenu.vue"
 export default {
     data(){
         return {
@@ -18,6 +21,7 @@ export default {
     },
     components:{
         SearchBox,
+        DropMenu,
     }
 }
 </script>
@@ -26,7 +30,7 @@ export default {
 <style lang="stylus" scoped>
 .search
     display flex
-    flex-direction columns 
+    flex-direction column
     height 100%
     width 100%
     .search-top
@@ -35,7 +39,8 @@ export default {
         display flex
         justify-content center
         align-items center
-        border-bottom 1px pink solid
-
+.menu 
+    width 100%
+    height .5rem
 
 </style>
