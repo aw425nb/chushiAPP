@@ -35,7 +35,7 @@ const routes = [{
     {//我的供应
         path: "/mysupply",
         component: MySupply,
-        meta: { isshow:false }
+        meta: { isshow:true }
     },
     {//我的采购
         path: "/mypurchase",
