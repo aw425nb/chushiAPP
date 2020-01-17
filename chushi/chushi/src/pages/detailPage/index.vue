@@ -87,8 +87,8 @@
       描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述
     </div>
     <div class="imglist">
-      <img src="../../assets/img/banner1.jpg" alt="">
-      <img src="../../assets/img/banner2.jpg" alt="">
+      <img src="../../assets/img/banner1.png" alt="">
+      <img src="../../assets/img/banner2.png" alt="">
     </div>
     <div class="correlation">
       <h3>相关产品</h3>
