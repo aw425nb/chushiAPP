@@ -1,7 +1,7 @@
 <template>
   <div id="shop_detail">
     <header class="banner">
-      <img src="../../assets/img/banner1.jpg" alt />
+      <img src="../../assets/img/banner1.png" alt />
       <div class="heade_back">
         <van-icon name="arrow-left" />
       </div>
