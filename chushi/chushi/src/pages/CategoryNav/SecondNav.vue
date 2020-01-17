@@ -1,5 +1,5 @@
 <template>
-  <!-- 二级导航
+  <!-- 二级导航 SecondNavSecondNav
   item.title: 当季最热、其他
   fid: 一级导航的id
   sid: 二级导航的id
@@ -9,7 +9,7 @@
     <div class="hot" v-for="item of hotlist" :key="item.fid">
       <h3>{{item.title}}</h3>
       <ul>
-        <li v-for="ele of item.list" :key="ele.sid">
+        <li v-for="ele of item.list" :key="ele.sid" :class="{active:fruitType==ele.tname}" @click="chose([ele.tid,ele.tname])">
           <a href>
             <img :src="ele.url" alt />
             <span>{{ele.sname}}</span>
@@ -84,6 +84,66 @@ export default {
               sname: "鲜枣"
             }
           ]
+        },
+        {
+          title: "当季最热",
+          fid: 2,
+          list: [
+            {
+              sid: 1,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜1"
+            },
+            {
+              sid: 2,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜2"
+            },
+            {
+              sid: 3,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜3"
+            },
+            {
+              sid: 4,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜4"
+            },
+            {
+              sid: 5,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜5"
+            },
+            {
+              sid: 6,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜6"
+            },
+            {
+              sid: 7,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜7"
+            },
+            {
+              sid: 8,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜8"
+            },
+            {
+              sid: 9,
+              url:
+                "https://img.yzcdn.cn/vant/cat.jpeg",
+              sname: "蔬菜9"
+            }
+          ]
         }
       ]
     };
@@ -94,20 +154,21 @@ export default {
 <style scoped lang="stylus">
 $width = .6rem
 .floor
-    padding .2rem
+    padding .1rem
     .hot
         font-size .14rem
-        margin-top -.05rem
         text-align left
         h3
-            margin-bottom .14rem
+            margin-bottom .18rem
+            margin-top .06rem
+            margin-left .15rem
     ul
         display flex
         flex-wrap wrap
         justify-content space-evenly
         li
             // width 33%
-            padding 0 .08rem .08rem .08rem
+            padding 0 .08rem .18rem .08rem
             box-sizing border-box
             text-align center
         a
@@ -118,4 +179,5 @@ $width = .6rem
             width $width
             height $width
             border-radius .05rem
+            margin-bottom 0.04rem
 </style>

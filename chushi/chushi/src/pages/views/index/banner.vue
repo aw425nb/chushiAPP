@@ -1,10 +1,10 @@
 <template>
     <div class="banner">
         <van-swipe :autoplay="3000" indicator-color="white">
-            <van-swipe-item><img src="../../../assets/img/banner.png" alt=""></van-swipe-item>
-            <van-swipe-item><img src="../../../assets/img/banner1.jpg" alt=""></van-swipe-item>
-            <van-swipe-item><img src="../../../assets/img/banner2.jpg" alt=""></van-swipe-item>
-            <van-swipe-item><img src="../../../assets/img/banner3.png" alt=""></van-swipe-item>
+            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner.png" alt=""></div></van-swipe-item>
+            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner1.png" alt=""></div></van-swipe-item>
+            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner2.png" alt=""></div></van-swipe-item>
+            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner3.png" alt=""></div></van-swipe-item>
         </van-swipe>
 
     </div>
@@ -24,11 +24,16 @@ export default {
     .banner
         width 100%
         height 1.55rem
-        padding 0 .16rem
         .van-swipe 
-            border-radius .1rem
-            img 
-                width 100%
+            background #f6f6f6
+            .vandiv
+                width 3.43rem
                 height 1.55rem
+                background #f6f6f6
+                margin-left .16rem
+                img 
+                    width 100%
+                    height 1.55rem
+                    border-radius .1rem
 
 </style>
