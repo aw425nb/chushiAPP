@@ -56,7 +56,13 @@
         </ul>
       </van-tab>
     </van-tabs>
-    <van-button round type="info" style="width: 2.7rem;" color="#4cc79b">发布新供应</van-button>
+    <van-button
+      round 
+      type="info" 
+      style="width: 2.7rem;" 
+      color="#4cc79b"
+      to="/ReleaseSupply"
+     >发布新供应</van-button>
   </div>
 </template>
 
@@ -68,7 +74,8 @@ export default {
       imgshow1: false, //背景图片时候显示隐藏
       imgshow2: false,
       imgshow3: true,
-      imgshow4: true
+      imgshow4: true,
+      value:''
     };
   },
   methods: {

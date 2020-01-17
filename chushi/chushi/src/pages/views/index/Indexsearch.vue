@@ -4,7 +4,7 @@
        
         <div class="search">
             <div class="logo">
-                <img src="../../assets/img/logo.jpg" alt="">
+                <img src="../../../assets/img/logo.jpg" alt="">
                 
             </div>
             <div class="searchmain">
@@ -48,7 +48,8 @@
         padding .09rem .16rem
         display flex
         align-items center
-        justify-content space-between
+        justify-content space-around
+
         .logo
             width .38rem
             height .32rem
@@ -75,12 +76,13 @@
             width .65rem
             height .32rem
             position relative
-            padding 0 0 0 0.17rem
+            padding 0 0 0 0.25rem
             line-height .32rem
             cursor pointer
             .van-icon
                 position absolute
                 font-size .2rem 
                 top 0.065rem
-                left -0.16em
+                left 0
+               
 </style>
