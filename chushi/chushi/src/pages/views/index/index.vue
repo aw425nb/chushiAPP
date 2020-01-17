@@ -2,6 +2,7 @@
     <div>
         <Indexsearch/>
         <Banner/>
+        <Options/>
     </div>
 </template>
 
@@ -9,10 +10,12 @@
 <script>
 import Indexsearch from "./Indexsearch.vue"
 import Banner from "./banner.vue"
+import Options from "./options.vue"
 export default {
     components:{
         Indexsearch,
-        Banner
+        Banner,
+        Options
     }
 }
 </script>

@@ -7,6 +7,7 @@ import Purchase from "../pages/myPurchase"
 import Offer from "../pages/myOffer"
 import Detail from "../pages/detailPage"
 import Search from "../components/search/Search.vue"
+import MyStore from "../pages/myStore/MyStore.vue"
 
 // 引入发布供应和发布采购组件
 import PostPurchase from "../pages/publish/PostPurchase.vue"
@@ -51,6 +52,10 @@ const routes = [{
     {//搜索页
         path:'/search',
         component:Search
+    },
+    {//我的店铺
+        path:'/myStore',
+        component:MyStore
     },
     {//发布采购
         path:'/PostPurchase',

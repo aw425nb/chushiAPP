@@ -2,10 +2,10 @@
   <div class="drop-menu">
     <van-dropdown-menu active-color="#4cc79b">
       <!-- 地区 -->
-      <van-dropdown-item v-model="value1" :options="option1[1].children">
+      <van-dropdown-item v-model="value1" :options="option1">
         <!-- 选择省份/城市 -->
         <van-tree-select
-          :items="option1[1]"
+          :items="items"
           :active-id.sync="activeId"
           :main-active-index.sync="activeIndex"
           @click-item="onClick"
@@ -41,10 +41,16 @@ export default {
       switch2: false,
       value1: 0,
       value2: 'a',
-      option1: [
+      option1: 
         //地区
         [{ text: "全国", value: 0 }],
-        [
+      option2: [
+        //排序
+        { text: "综合排序", value: 'a' },
+        { text: "距离排序", value: 'b' },
+        { text: "价格排序", value: 'c' }
+      ],
+      items:[
           { 
            text: "全国", 
            value: 0,
@@ -178,14 +184,7 @@ export default {
               { text: "揭阳", id: 10 }
             ]
           }
-        ]
-      ],
-      option2: [
-        //排序
-        { text: "综合排序", value: 'a' },
-        { text: "距离排序", value: 'b' },
-        { text: "价格排序", value: 'c' }
-      ],
+        ],
       activeId: 1,
       activeIndex: 0
     };
@@ -196,9 +195,8 @@ export default {
       this.$refs.item.toggle();
     },
     onClick(e){
-      console.log(e.text)
-      console.log(this)
-      this.value1=e.text
+      //console.log(e.text) 例：温州
+      this.option1[0].text=e.text
     },
     onBlur(e) {
       console.log(e.target.value);
