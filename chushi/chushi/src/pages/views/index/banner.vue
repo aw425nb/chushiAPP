@@ -30,7 +30,7 @@ export default {
                 width 3.43rem
                 height 1.55rem
                 background #f6f6f6
-                margin-left .16rem
+                margin-left .26rem
                 img 
                     width 100%
                     height 1.55rem
