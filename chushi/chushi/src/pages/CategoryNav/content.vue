@@ -44,4 +44,13 @@ export default {
 <style scoped lang="stylus">
 .van-tree-select
     margin-top .13rem
+.van-sidebar
+    text-align center
+    width 28%
+    flex none
+    .van-sidebar-item--select
+        color #4cc79b
+        border-width 0 0 0.02rem 0
+        border-style solid
+        border-color #4cc79b
 </style>
