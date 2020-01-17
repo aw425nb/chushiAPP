@@ -31,6 +31,6 @@
         position absolute
         top .27rem
         left .16rem
-        opacity .3
+        opacity .5
       
 </style>
