@@ -2,8 +2,8 @@
     <div class="banner">
         <van-swipe :autoplay="3000" indicator-color="white">
             <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner.png" alt=""></div></van-swipe-item>
-            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner1.jpg" alt=""></div></van-swipe-item>
-            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner2.jpg" alt=""></div></van-swipe-item>
+            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner1.png" alt=""></div></van-swipe-item>
+            <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner2.png" alt=""></div></van-swipe-item>
             <van-swipe-item><div class="vandiv"><img src="../../../assets/img/banner3.png" alt=""></div></van-swipe-item>
         </van-swipe>
 
