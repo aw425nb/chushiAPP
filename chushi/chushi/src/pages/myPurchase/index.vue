@@ -64,6 +64,7 @@
       round type="info" 
       style="width: 2.7rem;"
       color="#4cc79b"
+      to="/PostPurchase"
     >发布新采购</van-button>
   </div>
 </template>
@@ -82,6 +83,9 @@ export default {
   methods: {
     onClickLeft() {
       this.$router.history.push('/my')
+    },
+    clickPostPurchase(){
+      this.$router.history.push('/PostPurchase')
     }
 
   }
