@@ -1,8 +1,8 @@
 <template>
   <div>
     <!-- 点击发布采购页面 PostPurchase-->
-    发布采购页面
     <CategoryNav></CategoryNav>
+    发布采购页面
   </div>
 </template>
 

@@ -32,55 +32,55 @@ export default {
             {
               sid: 1,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "葡萄"
             },
             {
               sid: 2,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "西瓜"
             },
             {
               sid: 3,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "蜜桃"
             },
             {
               sid: 4,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "苹果"
             },
             {
               sid: 5,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "梨"
             },
             {
               sid: 6,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "李子"
             },
             {
               sid: 7,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "猕猴桃"
             },
             {
               sid: 8,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "柑橘"
             },
             {
               sid: 9,
               url:
-                "https://img.alicdn.com/imgextra/i4/2053469401/O1CN01MeXEEF2JJhzeoqBBw_!!2053469401.png",
+                "https://img.yzcdn.cn/vant/cat.jpeg",
               sname: "鲜枣"
             }
           ]
@@ -92,7 +92,30 @@ export default {
 </script>
 
 <style scoped lang="stylus">
+$width = .6rem
 .floor
-    li
-        width .3rem
+    padding .2rem
+    .hot
+        font-size .14rem
+        margin-top -.05rem
+        text-align left
+        h3
+            margin-bottom .14rem
+    ul
+        display flex
+        flex-wrap wrap
+        justify-content space-evenly
+        li
+            // width 33%
+            padding 0 .08rem .08rem .08rem
+            box-sizing border-box
+            text-align center
+        a
+            display block
+            display flex
+            flex-direction column
+        img
+            width $width
+            height $width
+            border-radius .05rem
 </style>
