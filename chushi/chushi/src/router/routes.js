@@ -1,4 +1,4 @@
-import Index from "../pages/views/index.vue"
+import Index from "../pages/views/index/index.vue"
 import My from "../pages/views/my.vue"
 import Classify from "../pages/views/classify.vue"
 import Manifest from "../pages/views/manifest.vue"

@@ -59,6 +59,7 @@ footer
   left 0
   line-height 0.49rem
 
+
   a
     flex 1
     text-align center
