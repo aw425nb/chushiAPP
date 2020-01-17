@@ -90,6 +90,37 @@
       <img src="../../assets/img/banner1.png" alt="">
       <img src="../../assets/img/banner2.png" alt="">
     </div>
+    <div class="correlation">
+      <h3>相关产品</h3>
+      <ul>
+        <li>
+          <img src="../../assets/img/10.png" alt="">
+          <h4>产品名称</h4>
+          <p>20斤/元</p>
+        </li>
+         <li>
+          <img src="../../assets/img/10.png" alt="">
+          <h4>产品名称</h4>
+          <p>20斤/元</p>
+        </li> 
+        <li>
+          <img src="../../assets/img/10.png" alt="">
+          <h4>产品名称</h4>
+          <p>20斤/元</p>
+        </li>
+      </ul>
+    </div>
+    <div class="agreement">
+      <img src="../../assets/img/explain.png" alt="">
+    </div>
+    <div class="serial_number">
+      <span class="serial_l">产品编号：001</span>
+      <span class="serial_r">询价时请将产品编号报给对方</span>
+    </div>
+    <footer class="footer">
+      <button class="footer_l">加入进货单</button>
+      <button class="footer_r">立即询价</button>
+    </footer>
   </div>
 </template>
 
@@ -234,15 +265,79 @@ export default {
     line-height .22rem
     font-size .16rem
     color #000000
+    min-height .2rem
   .imglist
     width 100%
-    padding .16rem .2rem  
+    padding .16rem .2rem .1rem 
     margin-top .12rem
     background-color #fff
     img 
       width 100%
       height  2.5rem
- 
+      margin-bottom .1rem
+      border-radius .05rem
+  .correlation
+    width 100%
+    padding .16rem .2rem  
+    margin-top .12rem
+    background-color #fff
+    h3
+      line-height .2rem
+      font-size .12rem
+      color #000000
+    ul
+      width 100%
+      height 1.507rem
+      display flex  
+      justify-content space-between
+      li 
+        width 1.05rem
+        height 1.507rem
+        padding .02rem
+        img 
+          width 1rem
+          height 1rem
+        h4
+          margin-top .1rem
+        p
+          margin-top .08rem
+          color #ff6600
+  .agreement
+    width 100%
+    height 1rem
+    background-color #fff
+    padding .1rem .2rem .1rem 
+    margin-top .06rem
+    img   
+      width 100%
+      height 100%
+  .serial_number
+    width 100%
+    line-height .32rem
+    font-size .12rem
+    color #000000
+    background-color #fff
+    padding 0 .2rem
+    display flex
+    justify-content space-between
+    .serial_r
+      color #999999
+  .footer
+    width 100%
+    height .6rem
+    padding .09rem .2rem 
+    button 
+      width 50%
+      height 100%
+      border 0
+    .footer_l
+      border-radius .3rem 0rem 0rem .3rem
+      background-color #81d8b9
+    .footer_r
+      border-radius 0rem .3rem .3rem 0rem
+      background-color #4cc79b
+          
+
 
 
 </style>
