@@ -29,7 +29,9 @@
             </div>
             <div class="count-box"><span class="count">{{fileList.length}}/9</span></div>
         </div>
-         <van-button round type="primary" size="large" class="submit-btn">提交</van-button>
+        <!-- 提交 -->
+         <van-button round type="primary" 
+         size="large" class="submit-btn">提交</van-button>
     </div>
   </div>
 </template>
