@@ -1,5 +1,5 @@
 <template>
-    <div class="search">
+    <div id="search">
         <div class="search-top">
             <!-- 后退箭头 -->
             <van-icon name="arrow-left" />
@@ -28,7 +28,7 @@ export default {
 
 
 <style lang="stylus" scoped>
-.search
+#search
     display flex
     flex-direction column
     height 100%

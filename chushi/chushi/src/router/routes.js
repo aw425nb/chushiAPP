@@ -1,15 +1,18 @@
-import Index from "../pages/views/index.vue"
+import Index from "../pages/views/index/index.vue"
 import My from "../pages/views/my.vue"
 import Classify from "../pages/views/classify.vue"
 import Manifest from "../pages/views/manifest.vue"
-import Publish from "../pages/views/publish.vue"
 import MySupply from "../pages/mySupply"
 import Purchase from "../pages/myPurchase"
 import Offer from "../pages/myOffer"
 import Detail from "../pages/detailPage"
-import Search from "../pages/search/Search.vue"
+import Search from "../components/search/Search.vue"
+import MyStore from "../pages/myStore/MyStore.vue"
+import RealName from "../pages/realName/RealName.vue"
 
-
+// 引入发布供应和发布采购组件
+import PostPurchase from "../pages/publish/PostPurchase.vue"
+import ReleaseSupply from "../pages/publish/ReleaseSupply.vue"
 
 const routes = [{
         path: "/index",
@@ -31,14 +34,9 @@ const routes = [{
         component: Manifest,
         meta: { footerShow:true }
     },
-    {
-        path: "/publish",
-        component: Publish
-    },
     {//我的供应
         path: "/mysupply",
         component: MySupply,
-       
     },
     {//我的采购
         path: "/mypurchase",
@@ -56,10 +54,25 @@ const routes = [{
         path:'/search',
         component:Search
     },
+    {//我的店铺
+        path:'/myStore',
+        component:MyStore
+    },
+    {//实名认证
+        path:'/realName',
+        component:RealName
+    },
+    {//发布采购
+        path:'/PostPurchase',
+        component:PostPurchase
+    },
+    {//发布供应
+        path:'/ReleaseSupply',
+        component:ReleaseSupply
+    },
     {
         path: "*",
         redirect: "/index"
     }
 ]
-
 export default routes
